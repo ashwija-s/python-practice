@@ -4,10 +4,10 @@ stack.append("Apple")
 stack.append("Banana")
 stack.append("Cherry")
 
-print("Before: ", stack)
+print("Before pop: ", stack)
 
 remove = stack.pop()
 
 print("Removed ", remove)
 
-print("After: ", stack)
+print("After pop: ", stack)
