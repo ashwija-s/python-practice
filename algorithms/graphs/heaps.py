@@ -23,3 +23,6 @@ heapq.heappush(my_heap, (1, "A"))
 print(my_heap)  #[(1, 'A'), (3, 'A'), (2, 'B')]
 
 print(heapq.heappop(my_heap))  #(1, 'A')
+
+
+#heap: time complexity(O(logn))
