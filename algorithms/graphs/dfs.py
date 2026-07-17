@@ -10,3 +10,12 @@ def dfs(graph, start_node):
                 if graph[node][i] == 1:
                     stack.append(i)
     return visited
+
+graph = [
+    [0, 1, 0, 0],
+    [1, 0, 1, 0],
+    [0, 1, 0, 1],
+    [0, 0, 1, 0]
+]
+
+print(dfs(graph, 1))  # [1, 0, 2, 3]
